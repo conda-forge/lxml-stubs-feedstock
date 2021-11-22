@@ -1,5 +1,5 @@
 {% set name = "lxml-stubs" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lxml-stubs-{{ version }}.tar.gz
-  sha256: 78f1bfb31b1f2af9a5c9e9a602ab1b589a64a5a3cc444931a39cdfd02d6864b0
+  sha256: 9c71dd1893698dd2ccb1e190fabbd5b906daf910c7605147f3a3b3cea21b7c64
 
 build:
   number: 0
